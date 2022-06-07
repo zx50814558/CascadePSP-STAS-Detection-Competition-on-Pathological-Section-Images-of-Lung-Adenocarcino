@@ -19,8 +19,24 @@ pip install tensorboard
 ```
 
 # Testing
-Pretrained Models: https://drive.google.com/file/d/15SGC0mMRBiofohXov_Bq5RJfL7whgh6S/view?usp=sharing
+Pretrained Models > : https://drive.google.com/file/d/15SGC0mMRBiofohXov_Bq5RJfL7whgh6S/view?usp=sharing
 Testing dataset: https://drive.google.com/file/d/1-CfW7BBceDxw2gkui-LYwrWJoXMw9Y5W/view?usp=sharing
+
+Qucik Start:
+```
+下載 Pretrained Models
+下載 Testing dataset
+執行下方程式
+```
+
+自己建立 Testing dataset :
+```
+下載 Pretrained Models
+建立 input 資料夾
+放入 Semask 輸出圖片以及競賽的 Public 與 private dataset
+依序執行 convert.ipynb
+執行下方程式
+```
 
 ------------
 ```
@@ -28,7 +44,9 @@ python eval.py --dir "測試資料及路徑" --model "下載的 Pretrained Model
 ```
 # Training
 Download the dataset:
+
 900 張: https://drive.google.com/file/d/1e9fCU-H2HU1mL4IFLlrcCAWbp02_4eYK/view?usp=sharing
+
 1053 張: https://drive.google.com/file/d/1d8PBd0uYv3KwKNzUcOCn1UGv0T_ygnHV/view?usp=sharing
 下載後須至```./train.py ```第 47 行更改為對應的資料路徑
 
