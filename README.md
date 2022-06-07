@@ -24,18 +24,18 @@ Testing dataset: https://drive.google.com/file/d/1-CfW7BBceDxw2gkui-LYwrWJoXMw9Y
 
 Qucik Start:
 ```
-下載 Pretrained Models
-下載 Testing dataset
-執行下方程式
+1. 下載 Pretrained Models
+2. 下載 Testing dataset
+2. 執行下方指令
 ```
 
 自己建立 Testing dataset :
 ```
-下載 Pretrained Models
-建立 input 資料夾
-放入 Semask 輸出圖片以及競賽的 Public 與 private dataset
-依序執行 convert.ipynb
-執行下方程式
+1. 下載 Pretrained Models
+2. 建立 input 資料夾
+3. 放入 Semask 輸出圖片以及競賽的 Public 與 private dataset
+4. 依序執行 convert.ipynb
+5. 執行下方指令
 ```
 
 ------------
