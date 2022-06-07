@@ -34,8 +34,8 @@ Qucik Start:
 自己建立 Testing dataset :
 ```
 1. 下載 Pretrained Models
-2. 建立 input 資料夾
-3. 放入 Semask 輸出圖片以及競賽的 Public 與 private dataset
+2. 建立名稱為 input 的資料夾
+3. 將 Semask 輸出圖片以及競賽的 Public 與 private dataset 放入 input 資料夾
 4. 依序執行 convert.ipynb
 5. 執行下方指令
 ```
