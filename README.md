@@ -38,13 +38,13 @@ Qucik Start:
 1. 下載 Pretrained Models
 2. 建立名稱為 input 的資料夾
 3. 將 Semask 輸出圖片以及競賽的 Public 與 private dataset 放入 input 資料夾
-4. 依序執行 convert.ipynb
+4. 執行 convert.py
 5. 執行下方指令
 ```
 
 ------------
 ```
-python eval.py --dir input/input --model model_50000 --output output
+python eval.py --dir input --model model_50000 --output output
 ```
 # Training
 Download the dataset:
