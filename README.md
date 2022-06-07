@@ -7,6 +7,7 @@ pytorch == 1.10.2
 opencv-python == 4.5.5.64
 progressbar2 == 3.55.0
 tensorboard == 2.9.0
+pandas == 1.1.5
 ```
 # 安裝指令
 ```
@@ -16,6 +17,7 @@ conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 pip install progressbar2
 pip install opencv-python
 pip install tensorboard
+pip install pandas
 ```
 
 # Testing
