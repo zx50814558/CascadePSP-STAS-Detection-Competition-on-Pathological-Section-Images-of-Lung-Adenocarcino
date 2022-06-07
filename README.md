@@ -26,7 +26,7 @@ Qucik Start:
 ```
 1. 下載 Pretrained Models
 2. 下載 Testing dataset
-2. 執行下方指令
+3. 執行下方指令
 ```
 
 自己建立 Testing dataset :
