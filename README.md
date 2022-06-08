@@ -42,6 +42,19 @@ Qucik Start:
 5. 執行下方指令
 ```
 
+input 資料夾結構:
+```
+input
+├─Private_00000000_im.jpg
+├─Private_00000000_seg.png
+├─Private_00000001_im.jpg
+├─Private_00000001_seg.png
+		.
+		.
+		.
+
+```
+
 ------------
 ```
 python eval.py --dir input --model model_50000 --output output
