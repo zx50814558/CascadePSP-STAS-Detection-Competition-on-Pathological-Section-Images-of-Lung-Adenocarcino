@@ -51,8 +51,8 @@ Download the dataset:
 
 900 張: https://drive.google.com/file/d/1e9fCU-H2HU1mL4IFLlrcCAWbp02_4eYK/view?usp=sharing
 
-1053 張: https://drive.google.com/file/d/1d8PBd0uYv3KwKNzUcOCn1UGv0T_ygnHV/view?usp=sharing
-下載後解壓縮至專案的根目錄
+1053 張: https://drive.google.com/file/d/1d8PBd0uYv3KwKNzUcOCn1UGv0T_ygnHV/view?usp=sharing   
+下載後解壓縮至專案的根目錄   
 可至```./train.py ```第 47 行確認對應的 Training dataset 路徑
 
 ------------
