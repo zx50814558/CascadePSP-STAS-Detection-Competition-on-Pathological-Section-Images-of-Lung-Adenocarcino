@@ -23,8 +23,8 @@ pip install pandas
 # Testing
 Pretrained Models : https://drive.google.com/file/d/15SGC0mMRBiofohXov_Bq5RJfL7whgh6S/view?usp=sharing
 Testing dataset : https://drive.google.com/file/d/1-CfW7BBceDxw2gkui-LYwrWJoXMw9Y5W/view?usp=sharing
-Pretrained Models 下載後放至專案的根目錄  
-Testing dataset 下載後放至專案的根目錄
+Pretrained Models 下載後解壓縮至專案的根目錄
+Testing dataset 下載後解壓縮至專案的根目錄
 
 Qucik Start:
 ```
@@ -51,20 +51,24 @@ Download the dataset:
 
 900 張: https://drive.google.com/file/d/1e9fCU-H2HU1mL4IFLlrcCAWbp02_4eYK/view?usp=sharing
 
-1053 張: https://drive.google.com/file/d/1d8PBd0uYv3KwKNzUcOCn1UGv0T_ygnHV/view?usp=sharing  
-下載後須至```./train.py ```第 47 行更改為對應的資料路徑
+1053 張: https://drive.google.com/file/d/1d8PBd0uYv3KwKNzUcOCn1UGv0T_ygnHV/view?usp=sharing
+下載後解壓縮至專案的根目錄
+可至```./train.py ```第 47 行確認對應的 Training dataset 路徑
 
 ------------
 ### 訓練方法:
 - 這部分使用 900 張的資料集
 1. 下載官方的 Pretrained Models: https://drive.google.com/file/d/1FMmUYtWsZB4fReoQmtqqn-NOZrC8CfWK/view
-2. 至 ```./util/hyper_para.py ``` 裡更改  ```--load``` 路徑為下載的 ```Pretrained Models``` 路徑
+2. 至 ```./util/hyper_para.py ``` 裡更改  ```--load``` 路徑為下載的 ```官方 Pretrained Models``` 路徑
 3. 至 ```./util/hyper_para.py ``` 裡更改  ```--lr  ``` 為 2.25e-4
-4. 執行  ```python train.py testing ``` 取第 34950 次的權重
+5. 執行  ```python train.py testing ```
+6. 完成後至 ```./weights``` 選取```testing```開頭的資料夾，並取裡面第 34950 次的權重
 - 這部分使用 1053 張的資料集
 1. 至 ```./util/hyper_para.py ``` 裡更改  ```--load``` 路徑為 ```weights/testing/model_34950 ```
 2. 至 ```./util/hyper_para.py ``` 裡更改  ```--lr  ``` 為 1.125e-4
-3. 執行  ```python train.py testing_2 ``` 取第 50000 次的權重
+3. 至 ```./dataset/online_dataset.py ``` 註解 72行 73行 並反註解 76行 77行
+4. 執行  ```python train.py testing_2 ```
+5. 完成後至 ```./weights``` 選取```testing_2```開頭的資料夾，並取裡面第 50000 次的權重
 
 ------------
 

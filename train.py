@@ -44,7 +44,7 @@ if para['load'] is not None:
     model.load_state_dict(torch.load(para['load']))
 optimizer = optim.Adam(model.parameters(), lr=para['lr'], weight_decay=para['weight_decay'])
 
-train_dir = os.path.join('data', 'tbrian_training_1053')
+train_dir = os.path.join('tbrian_training_900')
 # duts_tr_dir = os.path.join('data', 'DUTS-TR')
 # duts_te_dir = os.path.join('data', 'DUTS-TE')
 # ecssd_dir = os.path.join('data', 'ecssd')

@@ -7,13 +7,13 @@ class HyperParameters():
         # Generic learning parameters
         parser.add_argument('-i', '--iterations', help='Number of training iterations', default=9e4, type=int)
         parser.add_argument('-b', '--batch_size', help='Batch size', default=6, type=int)
-        parser.add_argument('--lr', help='Initial learning rate', default=1.125e-4, type=float)
+        parser.add_argument('--lr', help='Initial learning rate', default=2.25e-4, type=float)
         parser.add_argument('--steps', help='Iteration at which learning rate is decayed by gamma', default=[22500, 37500], type=int, nargs='*')
         parser.add_argument('--gamma', help='Gamma used in learning rate decay', default=0.1, type=float)
         parser.add_argument('--weight_decay', help='Weight decay', default=1e-4, type=float)
 
         # same decay applied to discriminator
-        parser.add_argument('--load', help='Path to pretrained model if available', default="weights/resnet50_training_900/model_34950")
+        parser.add_argument('--load', help='Path to pretrained model if available', default="new_model")
 
         parser.add_argument('--ce_weight', help='Weight of CE loss function for each iteration',
             nargs=6, default=[0.0, 1.0, 0.5, 1.0, 1.0, 0.5], type=float)
