@@ -64,7 +64,7 @@ Download the dataset:
 5. 執行  ```python train.py testing ```
 6. 完成後至 ```./weights``` 選取```testing```開頭的資料夾，並取裡面第 34950 次的權重
 - 這部分使用 1053 張的資料集
-1. 至 ```./util/hyper_para.py ``` 裡更改  ```--load``` 路徑為 ```weights/testing/model_34950 ```
+1. 至 ```./util/hyper_para.py ``` 裡更改  ```--load``` 路徑為 ```weights/testing 開頭的資料夾/model_34950 ```
 2. 至 ```./util/hyper_para.py ``` 裡更改  ```--lr  ``` 為 1.125e-4
 3. 至 ```./dataset/online_dataset.py ``` 註解 72行 73行 並反註解 76行 77行
 4. 執行  ```python train.py testing_2 ```
