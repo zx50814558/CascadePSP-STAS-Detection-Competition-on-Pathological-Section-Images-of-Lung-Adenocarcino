@@ -30,7 +30,7 @@ Qucik Start:
 ```
 1. 下載 Pretrained Models
 2. 下載 Testing dataset
-3. 執行下方指令
+3. 執行下方指令，輸出結果在 ```output``` 資料夾內
 ```
 
 自己建立 Testing dataset :
@@ -39,7 +39,7 @@ Qucik Start:
 2. 建立名稱為 input 的資料夾
 3. 將 Semask 輸出圖片以及競賽的 Public 與 private dataset 放入 input 資料夾
 4. 執行 convert.py
-5. 執行下方指令
+5. 執行下方指令，輸出結果在 ```output``` 資料夾內
 ```
 
 ------------
